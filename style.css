@@ -20,7 +20,6 @@ button:hover {
 #calculadora {
     position: relative;
     background-color: rgb(39, 39, 39);
-    max-width: fit-content;
     overflow: hidden;
     border-radius: 0.5em;
     width: 25.2em;
