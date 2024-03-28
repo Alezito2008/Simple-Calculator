@@ -29,7 +29,7 @@ button:hover {
     padding: 1em;
 }
 
-#igual {
+.igual {
     background-color: rgb(95, 201, 160);
 }
 
@@ -47,7 +47,6 @@ button:hover {
     color: white;
     font-size: 2.5rem;
     padding-left: 0.7em;
-    /* max-width: 100px; */
     overflow: hidden;
     padding-top: 1rem;
 }
