@@ -1,0 +1,63 @@
+button {
+    aspect-ratio: 1;
+    width: 2.5em;
+    border-radius: 100vw;
+    font-family: Arial, sans-serif;
+    /* font-weight: bold; */
+    font-size: 1em;
+    margin: 0.3rem;
+    background-color: rgb(83, 83, 83);
+    color: white;
+    font-size: 2em;
+    border: none;
+}
+
+button:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
+#calculadora {
+    position: relative;
+    background-color: rgb(39, 39, 39);
+    max-width: fit-content;
+    overflow: hidden;
+    border-radius: 0.5em;
+    width: 25.2em;
+}
+
+#botones {
+    padding: 1em;
+}
+
+#igual {
+    background-color: rgb(95, 201, 160);
+}
+
+.signo {
+    background-color: rgb(196, 109, 9);
+}
+
+#display {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 2em;
+    background-color: rgb(61, 61, 61);;
+    border: none;
+    margin-bottom: 0em;
+    color: white;
+    font-size: 2.5rem;
+    padding-left: 0.7em;
+    /* max-width: 100px; */
+    overflow: hidden;
+    padding-top: 1rem;
+}
+
+#calculoAnterior {
+    color: lightgray;
+    position: absolute;
+    font-family: Arial, sans-serif;
+    text-align: right;
+    width: 95%;
+    padding-top: 1rem;
+}
